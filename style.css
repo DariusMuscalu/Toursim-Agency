@@ -28,6 +28,7 @@ body {
     border: none;
     outline: none;
     margin-top: 1rem;
+    margin-bottom: 1rem;
     min-width: 300px;
     font-size: 1.2rem;
 }
@@ -88,14 +89,75 @@ video {
     background: url('./img/ATRA-Doftana-drona-24.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 130vh;
     max-width: 100%;
 }
-
-.container ul {
-    padding: 1.5rem 1rem;
+/* Despre Section */
+#despre .flexbox-container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: -14rem;
 }
 
+#despre .flex-item {
+    margin: 0 2rem;
+    max-width: 600px;
+    background-color: #333;
+    border-radius: 10px;
+    font-size: 1.7rem;
+}
+
+#despre .flex-item:hover {
+    background-position: center;
+    text-shadow: 2px 2px 2px #000;
+}
+
+#despre .flex-item h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+}
+
+#despre .flex-item p {
+    padding: 0 4rem;
+    line-height: 1.5;
+}
+
+#despre .flex-item img {
+    width: 120px;
+    height: auto;
+    margin-top: 1rem;
+}
+
+#despre .btn-about {
+    background: hsl(217, 40%, 50%);
+    padding: 1rem 0;
+    margin: 2rem;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    min-width: 300px;
+    font-size: 1.2rem;
+}
+
+#despre .btn-about:hover {
+    background: hsl(217, 60%, 50%);
+    box-shadow: 2px 2px 2px #000;
+    color: #fff;
+}
+
+#despre .box-1:hover {
+    background: url('/img/melba1.jpg');
+}
+
+#despre .box-2:hover {
+    background: url('/img/3011770852458365280.jpg') top;
+}
+
+#despre .box-3:hover {
+    background: url('./img/ATRA-Doftana-drona-24.jpg');
+}
 /* Oferte Section */
 #oferte {
     color: #000;
