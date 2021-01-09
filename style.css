@@ -33,13 +33,33 @@ body {
     font-size: 1.2rem;
 }
 
-.btn:hover {
+.btn:hover, .btn-footer:hover {
     background: hsl(217, 60%, 50%);
     box-shadow: 2px 2px 2px #000;
+    cursor: pointer;
+}
+
+.btn-footer {
+    padding: 0.7rem;
+    width: 40%;
+    margin: 1rem auto;
+    background: hsl(217, 40%, 50%);
+    color: #fff;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+}
+
+i:hover {
+    color: hsl(217, 40%, 50%);
 }
 
 .py-1 {
     padding-bottom: 1.5rem;
+}
+
+span {
+    color: orange;
 }
 
 /* Navigation */
@@ -88,19 +108,40 @@ footer {
     font-size: 1.4rem;
 }
 
+footer a:hover {
+    text-decoration: underline;
+}
+
 #main-footer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
-    align-items: center;
     background-color: #333;
     padding-top: 2rem;
     margin: auto;
     max-width: 700px;
 }
 
+#main-footer .item-2 ul {
+    display: flex;
+    /* For changing the icons direction */
+}
+
+#main-footer i {
+    font-size: 1.7rem;
+}
+
 #main-footer ul, li {
     list-style: none;
+}
+
+#main-footer input {
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border-radius: 25px;
+    width: 90%;
+    outline: none;
+    border: none;
 }
 
 #bottom-footer {
@@ -121,9 +162,9 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
-    flex-wrap: wrap;
     margin: auto;
     margin-top: -14rem;
+    width: 100%;
 }
 
 #despre .flex-item {
@@ -175,11 +216,11 @@ footer {
 }
 
 #despre .box-1:hover {
-    background: url('/img/melba1.jpg');
+    background: url('./img/melba1.jpg');
 }
 
 #despre .box-2:hover {
-    background: url('/img/3011770852458365280.jpg') top;
+    background: url('./img/3011770852458365280.jpg') top;
 }
 
 #despre .box-3:hover {
@@ -187,7 +228,7 @@ footer {
 }
 /* Oferte Section */
 #oferte {
-    margin-top: 10rem;
+    margin: 10rem 0;
     color: #000;
     padding: 0 6rem;
 }
