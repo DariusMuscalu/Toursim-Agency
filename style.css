@@ -150,6 +150,10 @@ footer a:hover {
 #bottom-footer {
     text-align: center;
 }
+
+#bottom-footer a {
+    padding: 0;
+}
 /* About Page */
 #about-hero {
     background-color: hsl(217, 40%, 50%);
@@ -157,7 +161,7 @@ footer a:hover {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.4)), url('./img/ATRA-Doftana-drona-24.jpg') no-repeat;
     background-size: cover;
     background-position: center;
-    height: 100vh;
+    height: 110vh;
     max-width: 100%;
 }
 /* Despre Section */
@@ -300,10 +304,9 @@ footer a:hover {
 }
 
 #contact textarea:focus {
-    background: url('/img/thumb-up.svg') no-repeat right;
+    background: url('./img/thumb-up.svg') no-repeat right;
     background-size: 100px;
 }
-
   
 
 
