@@ -63,7 +63,6 @@ span {
 }
 
 /* Navigation */
-
 nav {
     position: relative;
     z-index: 2;
@@ -119,7 +118,11 @@ footer a:hover {
     background-color: #333;
     padding-top: 2rem;
     margin: auto;
-    max-width: 700px;
+    max-width: 1200px;
+}
+
+#main-footer .item-0, #main-footer .item-1 {
+    margin-bottom: 2rem;
 }
 
 #main-footer .item-2 ul {
@@ -237,7 +240,7 @@ footer a:hover {
     opacity: 0.8;
 }
 
-.row {
+#oferte .row {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -245,12 +248,12 @@ footer a:hover {
     padding: 0 4px;
   }
   
-  .column {
+#oferte .column {
     padding: 0 4px;
     width: 33.3%;
   }
   
-  .column img {
+#oferte .column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;

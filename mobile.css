@@ -1,0 +1,80 @@
+/* Navbar Index Page */
+nav ul {
+    margin: 0;
+    padding: 2.5rem 0;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+}
+
+/* Hero Section Index */
+.hero {
+    padding: 2rem;
+    line-height: 1.5;
+}
+
+/* Utility */
+.btn {
+    margin: 2rem auto;
+    min-width: 200px;
+}
+/* About Page */
+#despre .flexbox-container {
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+#despre .flex-item {
+    margin: 2rem 0;
+}
+
+#despre .flex-item p {
+    padding: 0 1rem;
+}
+
+#despre .btn-about {
+    margin: 2rem 0;
+    min-width: 200px;
+}
+
+/* About Page - Oferte Section */
+#oferte {
+    padding: 0;
+}
+
+#oferte .row {
+    flex-direction: column;
+    align-items: center;
+}
+
+#oferte .column {
+    width: 100%;
+}
+
+#oferte .column-2 {
+    display: none;
+}
+
+/* Footer */
+#main-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-footer .item-3 {
+    padding: 0 1rem;
+    margin-top: 1rem;
+}
+
+#main-footer input {
+    width: 100%;
+}
+/* Contact Page */
+#contact {
+    height: auto;
+    padding: 0 2rem;
+}
+
+#bottom-footer a {
+    padding: 0;
+}
