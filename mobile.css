@@ -17,6 +17,11 @@ nav ul {
     margin: 2rem auto;
     min-width: 200px;
 }
+
+.border-bottom {
+    border-top: 1px solid #000;
+    border-bottom: none;
+}
 /* About Page */
 #despre .flexbox-container {
     margin: 0;
@@ -36,7 +41,24 @@ nav ul {
     margin: 2rem 0;
     min-width: 200px;
 }
+/* Footer */
+#main-footer {
+    display: flex;
+    flex-direction: column;
+}
 
+#main-footer .item-3 {
+    padding: 0 1rem;
+    margin-top: 1rem;
+}
+
+#main-footer input {
+    width: 100%;
+}
+
+#bottom-footer a {
+    padding: 0;
+}
 /* About Page - Oferte Section */
 #oferte {
     padding: 0;
@@ -54,27 +76,14 @@ nav ul {
 #oferte .column-2 {
     display: none;
 }
-
-/* Footer */
-#main-footer {
-    display: flex;
-    flex-direction: column;
-}
-
-#main-footer .item-3 {
-    padding: 0 1rem;
-    margin-top: 1rem;
-}
-
-#main-footer input {
-    width: 100%;
-}
 /* Contact Page */
 #contact {
     height: auto;
     padding: 0 2rem;
 }
 
-#bottom-footer a {
-    padding: 0;
+#program .grid-container {
+    display: flex;
+    flex-direction: column;
 }
+
